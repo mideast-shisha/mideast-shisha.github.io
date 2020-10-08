@@ -1,0 +1,324 @@
+@import url("../fonts/fonts.css"); /* Using a fonts library url */
+.hidden
+{
+    display: none;
+}
+.bg-black
+{
+    background-color: black;
+}
+.bg-umum
+{
+    background-color: rgba(52, 58, 64, 0.90);
+}
+.bg-dasar 
+{
+    background-color: #f4623a;
+}
+.border-umum
+{
+    border-color: #f4623a !important;
+    width: 25%;
+
+}
+.bg-shisha
+{
+    background-color: #fef2e6 !important;
+}
+.nav-fixed
+{
+    position: fixed;
+    z-index: 10000000000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* Navbar style */
+    .nyala
+    {
+        color: #f4623a !important;
+    }
+    .brand-logo-image
+    {
+        width: 200px;
+        height: 100px;
+    }
+    .brand-logo-div
+    {
+        margin: 0 30px;
+        background-color:#f4623a;
+        padding: 10px;
+    }
+    .menu-name
+    {
+        font-size: 15px !important;
+        letter-spacing: 4px;
+    }
+
+/* End Navbar style */
+
+/* Header Slider style */
+    @-webkit-keyframes zoom 
+    {
+        from 
+        {
+            -webkit-transform: scale(1, 1);
+        }
+        to 
+        {
+            -webkit-transform: scale(1.5, 1.5);
+        }
+    }
+
+    @keyframes zoom 
+    {
+        from 
+        {
+            transform: scale(1, 1);
+        }
+        to 
+        {
+            transform: scale(1.5, 1.5);
+        }
+    }
+    
+    .carousel-caption
+    {
+        bottom: 200px !important;
+    }
+    .caption-title-slider
+    {
+        font-family : 'yeseva-one',cursive;
+        font-size   : 65px !important;
+    }
+    .caption-desctiption-slider
+    {
+        font-size: 17px;
+    }
+/* End Slider style */
+
+/* Start About Home Style */
+    .about-us-home-title
+    {
+        font-family: 'yeseva-one', cursive;
+        font-size: 48px;
+        line-height: 1;
+    }
+    .about-us-home-description
+    {
+        font-family: 'overpass-light','sans-serif';
+        font-size: 17px;
+        text-align: justify
+    }
+    .about-us-home-operation-icon
+    {
+        font-size: 35px;
+        color: #f4623a;
+        margin-left: 5px;
+    }
+    .about-us-home-operation-description
+    {
+        font-family: 'overpass-light','sans-serif';
+        font-size: 15px;
+        text-align: justify
+    }
+    
+    .about-us-home-location-icon
+    {
+        font-size: 35px;
+        color: #f4623a;
+    }
+    .about-us-home-location-description
+    {
+        font-family: 'overpass-light','sans-serif';
+        font-size: 15px;
+        text-align: justify
+    }
+    .waze-icon
+    {
+        font-size: 30px;
+    }
+
+/* End About Home Style */
+
+/* Start Our Menu Home Style */
+   /* Image for Parallax Section */ 
+    .paralsec {  
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.8);
+        
+    }
+    
+    .overlay {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 0;
+        cursor: pointer;
+      }
+    .content-upper-overlay
+    {
+        z-index: 10;
+    }
+    .our-menu-home-title-icon
+    {
+        font-size: 90px;
+        color: #fff;
+    }
+    .our-menu-home-title-text
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    
+    .fancy {
+        line-height: 0.5;
+        text-align: center;
+    }
+    .fancy span {
+        display: inline-block;
+        position: relative;  
+    }
+    .fancy span:before,
+    .fancy span:after {
+        content: "";
+        position: absolute;
+        height:0px;
+        border-bottom: 1px solid #f4623a;
+        border-top: 1px solid  #f4623a;
+        top: 10px;
+        width: 130px;
+    }
+    .fancy span:before {
+        right: 100%;
+        margin-right: 15px;
+    }
+    .fancy span:after {
+        left: 100%;
+        margin-left: 15px;
+    }
+    .menu-item {
+        margin-bottom: 45px;
+    }
+
+    .menu-item h5 {
+        color: #fff;
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+    .icon-kecil
+    {
+        font-size: 13px;
+    }
+    .menu-item p {
+        font-size: 14px;
+        line-height: normal;
+        display: table-cell;
+        width: 270px;
+        padding-right: 18px;
+        font-style: italic;
+    }
+
+    .menu-item .mi-meta {
+        display: table;
+        width: 100%;
+    }
+
+    .menu-item .menu-price {
+        display: table-cell;
+        color: #fff;
+        text-align: right;
+        position: relative;
+        font-size: 17px;
+    }
+
+    .menu-item .menu-price:after {
+        position: absolute;
+        content: "";
+        width: calc(100% - 63px);
+        left: 0;
+        top: 50%;
+        margin-top: -1px;
+        border-bottom: 2px dotted rgba(255, 255, 255, 0.25);
+    }
+    .button-see-more-menu
+    {
+        font-size: 30px;
+    }
+/* End Our Menu Home Style  */
+
+/* Our Shisha Home */
+    .our-shisha-home-title-icon
+    {
+        font-size: 90px;
+        color: #000;
+    }
+    .our-shisha-home-title-text
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: #000;
+        letter-spacing: 5px;
+    }
+    .icon-shisha
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .shisha-description
+    {
+        font-size: 16px;
+        color: #000;
+        font-family: overpass-bold;        
+    }
+    .shisha-price
+    {
+        font-size: 15px;
+        font-weight: 700;
+        font-family: overpass-light;
+    }
+/* End Our Shisha Home */
+
+/* Start Reservation */
+    .reservation-title
+    {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'yeseva-one';
+    }
+    .label-text
+    {
+        color: #fff;
+    }
+
+/* End Reservation */
+/* Footer */
+.copyright
+{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon-footer
+{
+    font-size: 23px;
+    margin-right: 20px;
+}

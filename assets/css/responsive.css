@@ -1,0 +1,190 @@
+@media only screen and (max-width: 1199px)
+{
+    .carousel-caption {
+        bottom: auto;
+        top: 180px;
+	}
+	.page-section
+	{
+		padding:5rem 0;
+	}
+	.about-us-home-title {
+		font-size: 40px;
+	}
+	.about-us-home-description 
+	{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .menu-name
+    {
+        letter-spacing: 2px !important;
+        margin: 10px !important;
+    }
+    
+    #mainNav {
+		box-shadow: none;
+		background-color: transparent;
+    }
+    
+	#mainNav .navbar-brand {
+		color: rgba(255, 255, 255, 0.7);
+	}
+	#mainNav .navbar-brand:hover {
+		color: #fff;
+	}
+	#mainNav .navbar-nav .nav-item .nav-link {
+		color: rgba(255, 255, 255, 0.7);
+		padding: 0 0.2rem;
+	}
+	#mainNav .navbar-nav .nav-item .nav-link:hover {
+		color: #fff;
+	}
+	#mainNav .navbar-nav .nav-item:last-child .nav-link {
+		padding-right: 0;
+	}
+	#mainNav.navbar-scrolled {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+		background-color: #fff;
+	}
+	#mainNav.navbar-scrolled .navbar-brand {
+		color: #212529;
+	}
+	#mainNav.navbar-scrolled .navbar-brand:hover {
+		color: #f4623a;
+	}
+	#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+		color: #212529;
+	}
+	#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+		color: #f4623a;
+    }
+    .brand-logo-image
+    {
+        width: 125px;
+        height: 50px;
+    }
+
+    .carousel-caption {
+        bottom: auto;
+        top: 100px;
+    }
+    .caption-title-slider
+    {
+        font-size   : 40px !important;
+    }
+    .caption-desctiption-slider
+    {
+        font-size: 15px;
+    }
+    
+	.page-section
+	{
+		padding:3rem 0;
+	}
+	.about-us-home-title {
+		font-size: 30px;
+	}
+	.about-us-home-description 
+	{
+		font-size: 14px;
+	}
+}
+@media only screen and (min-width: 768px)
+{
+    .carousel-inner .carousel-item > img 
+    {
+        -webkit-animation: zoom 20s;
+        animation: zoom 20s;
+    }
+}
+@media only screen and (max-width: 767px) 
+{
+	.navbar-dark .navbar-toggler {
+		color: #f4623a;
+		border-color: transparent;
+	}
+    .brand-logo-image
+    {
+        width: 30%;
+        /* height: 100px; */
+	}
+    .carousel-caption {
+        bottom: auto;
+        top: 25px;
+	}
+	.caption-title-slider {
+		font-size: 20px !important;
+	}
+	.caption-desctiption-slider {
+		font-size: 10px;
+	}
+    .brand-logo-div
+    {
+        margin: 0;
+	}
+	.x-text
+	{
+		font-size: 35px;
+	}
+	.brand-logo-image-nav
+	{
+        width: 50%;
+
+	}
+	.menu-nav
+	{
+		font-family: inherit;
+		letter-spacing: 0.9px;
+		font-weight: 600;
+		font-size: 20px;
+	}
+	.menu-item-nav
+	{
+		margin-top: 3px;
+	}
+	.menu-item-nav:active
+	{
+		color: #f4623a;
+
+	}
+	.social-media-nav
+	{
+		font-size: 20px;
+	}
+	.social-media-text
+	{
+		margin-right: 10px;
+	}
+	.social-media-text:active
+	{
+		color:#fff
+	}
+	.carousel-item
+	{
+		min-height: 0;
+	}
+
+	.menu-item h5 {
+        color: #fff;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    .icon-kecil
+    {
+        font-size: 6px;
+	}
+	
+	
+    .menu-item p {
+        font-size: 14px;
+        line-height: normal;
+        display: table-cell;
+		width: 200px;
+		padding-right: 18px;
+        font-style: italic;
+    }
+}
