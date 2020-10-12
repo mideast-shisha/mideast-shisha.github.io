@@ -25,6 +25,7 @@
 {
     background-color: #fef2e6 !important;
 }
+
 .nav-fixed
 {
     position: fixed;
@@ -37,7 +38,11 @@
     bottom: 0;
 }
 
-
+.text-bolder
+{
+    font-weight: 700;
+    font-size: 15px;
+}
 /* Navbar style */
     .nyala
     {
@@ -148,6 +153,16 @@
 
 /* Start Our Menu Home Style */
    /* Image for Parallax Section */ 
+    .paralsec-bg-pattern
+    {
+        background-image: url('../images/banner/bg-pattern.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        border-radius:0;
+    }
     .paralsec {  
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
@@ -159,7 +174,17 @@
         box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.8);
         
     }
-    
+    .paralsec-history {  
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 0;
+        border-radius:0;
+        box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+        
+    }
     .overlay {
         position: fixed;
         display: block;
@@ -272,6 +297,32 @@
         font-size: 90px;
         color: #000;
     }
+    .fancy-shisha {
+        line-height: 0.5;
+        text-align: center;
+    }
+    .fancy-shisha span {
+        display: inline-block;
+        position: relative;  
+    }
+    .fancy-shisha span:before,
+    .fancy-shisha span:after {
+        content: "";
+        position: absolute;
+        height:0px;
+        border-bottom: 1px solid #f4623a;
+        border-top: 1px solid  #f4623a;
+        top: 10px;
+        width: 130px;
+    }
+    .fancy-shisha span:before {
+        right: 100%;
+        margin-right: 15px;
+    }
+    .fancy-shisha span:after {
+        left: 100%;
+        margin-left: 15px;
+    }
     .our-shisha-home-title-text
     {
         font-family: Arial, Helvetica, sans-serif;
@@ -322,3 +373,164 @@
     font-size: 23px;
     margin-right: 20px;
 }
+
+/* end footer */
+
+
+/* start about page style */
+    .history-title
+    {
+        font-family: 'yeseva-one',cursive;
+        font-size: 42px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    .history-subtitle
+    {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .slider-history-year
+    {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'overpass-bold',cursive;
+    }
+    .slider-history-description
+    {
+        font-size: 20px;
+        font-family: 'overpass-light',cursive;
+        font-weight: 500;
+        color: darkgray;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background: 0 0;
+        color: #fff;
+        font-size: 12px;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+    }
+
+    .slider-customer-review-title
+    {
+        font-family : 'yeseva-one',cursive;
+        font-size   : 40px;
+    }
+    .slider-customer-review-name
+    {
+        font-family: 'overpass-reg';
+        font-size: 20px;
+    }
+    .slider-customer-review-description
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+    .gallery-title
+    {
+        font-family : 'yeseva-one',cursive;
+        font-size   : 40px;
+    }
+/* end about page style */
+/* start our menu page style */
+    .bg-jumbotron
+    {
+        background-image: url('../images/banner/bg-9.jpg');
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg-jumbotron-shisha
+    {
+        background-image: url('../images/banner/bg-11.jpg');
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-title
+    {
+        font-family: 'yeseva-one','cursive';
+        font-size: 50px;
+        color: white;
+    }
+    .button-reserve-div
+    {
+        margin-top: 50px;
+    }
+    .button-reserve
+    {
+        height: 60px;
+        font-size: 30px;
+        font-family: 'overpass-bold','cursive';
+    }
+
+
+    .menu-item-shisha {
+        margin-bottom: 45px;
+    }
+
+    .menu-item-shisha h5 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+    .icon-kecil
+    {
+        font-size: 13px;
+    }
+    .menu-item-shisha p {
+        font-size: 14px;
+        line-height: normal;
+        display: table-cell;
+        width: 270px;
+        padding-right: 18px;
+        font-style: italic;
+    }
+
+    .menu-item-shisha .mi-meta {
+        display: table;
+        width: 100%;
+    }
+
+    .menu-item-shisha .menu-price {
+        display: table-cell;
+        /* color: #fff; */
+        text-align: right;
+        position: relative;
+        font-size: 17px;
+    }
+
+    .menu-item-shisha .menu-price:after {
+        position: absolute;
+        content: "";
+        width: calc(100% - 63px);
+        left: 0;
+        top: 50%;
+        margin-top: -1px;
+        border-bottom: 2px dotted rgba(0, 0, 0, 0.25);
+    }
+    .link-item
+    {
+        color:black !important;
+    }
+    
+    .link-item:hover
+    {
+        color:#008000 !important;
+    }
+    .link-item-active
+    {
+        color:#008000 !important;
+    }
+    .icon-star-slider
+    {
+        font-size: 12px;
+    }
+    .slide-shisha-description
+    {
+        font-size: 14px;
+    }
+/* end our menu page style */

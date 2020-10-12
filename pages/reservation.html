@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideast Shisha Lounge</title>
+    <link rel="stylesheet" href="../assets/plugins/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../assets/plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+<body>
+    
+    <!-- Nav Menu On Small Devices -->
+    <div class="h-100 nav-fixed bg-dasar hidden" id="navbarToggleExternalContent">
+        <div class="bg-umum p-4 h-100">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="text-white x-text text-right" onclick="closeNav()">
+                        &times;
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="text-center">
+                        <img src="../assets/images/remake.png" class="brand-logo-image-nav" alt="mideast logo" srcset="" >
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-8 offset-sm-2 col-8 offset-2">
+                    <div class="menu-nav text-white text-center">
+                        <div class="menu-item-nav">
+                            About Us
+                        </div>
+                        <div class="menu-item-nav">
+                            Our Menu
+                        </div>
+                        <div class="menu-item-nav">
+                            Our Shisha
+                        </div>
+                        <div class="menu-item-nav">
+                            Reservation
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-8 offset-sm-2 col-8 offset-2">
+                    <div class="social-media-nav text-center">
+                        <a href="" class="social-media-text">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="social-media-text">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        
+                        <a href="" class="social-media-text">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav Menu On Small Devices -->
+
+    <!-- Nav bar on SM and SMALL Devices -->
+    <div class="pos-f-t d-md-none" id="nav-bar">
+        <div class="brand-logo-div text-center">
+            <a class="navbar-brand" href="#" >
+                <img src="../assets/images/remake.png" class="brand-logo-image" alt="mideast logo" srcset="" >
+            </a>
+        </div>
+        <nav class="navbar justify-content-center navbar-div bg-black navbar-dark" style="padding-bottom: 0; padding-top:0;">
+            <button class="navbar-toggler text-center" type="button" onclick="openNav()" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+    <!-- End Nav bar on SM and SMALL Devices -->
+
+    <!-- Nav bar on MD LG And XL -->
+    <nav class="d-md-block navbar navbar-expand-md fixed-top navbar-dark" id="mainNav" style="padding-top: 0px;padding-bottom: 0px;">
+        <!--  Use flexbox utility classes to change how the child elements are justified  -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link nav-link js-scroll-trigger menu-name " href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-name" href="ourmenu.html">Our Menu</a>
+                </li>
+            </ul>
+            <!--   Show this only lg screens and up   -->
+            <a class="navbar-brand d-none d-md-block brand-logo-div" href="../index.html">
+                <img src="../assets/images/remake.png" class="brand-logo-image" alt="mideast logo" srcset="" >
+            </a>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link menu-name " href="ourshisha.html">Our Shisha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-name active" href="#reservation">Reservation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar on MD LG XL -->
+    <header id="reservation">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active">
+                    <img src="../assets/images/banner/3.jpg" alt="" srcset="" width="100%">
+                    <div class="carousel-caption  text-left">
+                        <h2 class="caption-title-slider">Reservation</h2>
+                        <p class="caption-desctiption-slider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo laboriosam deserunt alias dicta? Accusantium fuga libero deserunt aperiam totam quod quidem, animi mollitia praesentium. Earum consectetur quaerat dignissimos magnam!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-section" id="reservation">
+        <div class="container">
+            <div class="row d-md-flex d-none">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.447915837721!2d106.80455581419726!3d-6.591116066263138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d20fb3e1b5%3A0x34e8e299d1f6928b!2sMid%20East%20Shisha%20Lounge!5e0!3m2!1sid!2sid!4v1602162612468!5m2!1sid!2sid" 
+                        height="500px" 
+                        width="100%"
+                        frameborder="0" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        aria-hidden="false" 
+                        tabindex="0"></iframe>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="reservation-title text-dark ">
+                        Book Your Table
+                    </div>
+                    <hr class="border border-dark w-50 float-left">
+                    <br>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname" class="label-text text-dark ">Fullname</label>
+                            <input type="text" class="form-control" id="fullname" aria-describedby="fullnameHelp" placeholder="Fill with your fullname">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phoneNumber" class="label-text text-dark ">Phone Number</label>
+                            <input type="text" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp" placeholder="Fill with your Phone Number">
+                            <small id="phoneNumberHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="dateTime" class="label-text text-dark ">Date & Time</label>
+                            <input type="datetime-local" class="form-control" id="dateTime" aria-describedby="dateTimeHelp" placeholder="Fill with your booking date">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="numberOfGuest" class="label-text text-dark ">Number of guest</label>
+                            <input type="number" class="form-control" id="numberOfGuest" aria-describedby="numberOfGuestHelp" max="50" min="1">
+                        </div>
+                        <button type="submit" class="btn btn-primary form-control">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row d-block d-md-none">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="reservation-title text-dark">
+                        Book Your Table
+                    </div>
+                    <hr class="border border-dark w-50 float-left">
+                    <br>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname" class="label-text text-dark ">Fullname</label>
+                            <input type="text" class="form-control" id="fullname" aria-describedby="fullnameHelp" placeholder="Fill with your fullname">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phoneNumber" class="label-text text-dark ">Phone Number</label>
+                            <input type="text" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp" placeholder="Fill with your Phone Number">
+                            <small id="phoneNumberHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="dateTime" class="label-text text-dark ">Date & Time</label>
+                            <input type="datetime-local" class="form-control" id="dateTime" aria-describedby="dateTimeHelp" placeholder="Fill with your booking date">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="numberOfGuest" class="label-text text-dark ">Number of guest</label>
+                            <input type="number" class="form-control" id="numberOfGuest" aria-describedby="numberOfGuestHelp" max="50" min="1">
+                        </div>
+                        <button type="submit" class="btn btn-primary form-control">Submit</button>
+                      </form>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-4">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.447915837721!2d106.80455581419726!3d-6.591116066263138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d20fb3e1b5%3A0x34e8e299d1f6928b!2sMid%20East%20Shisha%20Lounge!5e0!3m2!1sid!2sid!4v1602162612468!5m2!1sid!2sid" 
+                        width="100%" 
+                        height="500px" 
+                        frameborder="0" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        aria-hidden="false" 
+                        tabindex="0"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container mt-3">
+            <div class="row d-none d-md-flex" style="margin-bottom: 20px;">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-12 col-sm-12">
+                    <div class="copyright">
+                        &copy; Copyright 2020 Mideast Shisha Lounge. <br> All Right Reserved
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-12 col-sm-12">
+                    <div class="text-right">
+                        <i class="fab fa-instagram icon-footer"></i>
+                        <i class="fab fa-whatsapp icon-footer"></i>
+                        <i class="fab fa-twitter icon-footer"></i>
+                        <i class="fas fa-phone icon-footer"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row d-block d-md-none" style="margin-bottom: 20px;">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-12">
+                    <div class="text-center">
+                        <i class="fab fa-instagram icon-footer"></i>
+                        <i class="fab fa-whatsapp icon-footer"></i>
+                        <i class="fab fa-twitter icon-footer"></i>
+                        <i class="fas fa-phone icon-footer"></i>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-12">
+                    <div class="copyright text-center">
+                        &copy; Copyright 2020 Mideast Shisha Lounge <br> All Right Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function openNav() 
+        {
+            $('#navbarToggleExternalContent').removeClass('animate__animated animate__slideOutUp');
+            $('#navbarToggleExternalContent').addClass('nav-fixed');
+            $('#navbarToggleExternalContent').addClass('animate__animated animate__slideInDown');
+            $('#navbarToggleExternalContent').removeClass('hidden');
+            
+        }
+        function closeNav() 
+        {
+            $('#navbarToggleExternalContent').removeClass('nav-fixed');
+            $('#navbarToggleExternalContent').removeClass('animate__animated animate__slideInDown');
+            $('#navbarToggleExternalContent').addClass('animate__animated animate__slideOutUp');
+            setTimeout(function() {
+                $('#navbarToggleExternalContent').addClass('hidden');
+            }, 700);
+        }
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-one").owlCarousel(
+                {
+                    items:1,
+                    loop:true,
+                    nav:true,
+                    dots:false,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                }
+            );
+            $(".owl-two").owlCarousel(
+                {
+                    loop:true,
+                    nav:false,
+                    dots:false,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    responsive:{
+                        0:{
+                            items:1,
+                        },
+                        768:{
+                            items:2,
+                        }
+                    }
+                }
+            );
+        });
+        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+        function changeShisha(data) 
+        {
+            var id          = data.id;
+            var active      = $("#contentnya").find(".link-item-active")[0].id;
+            $('#'+active).removeClass('link-item-active');
+            $('#'+active).addClass('link-item');
+            $('#'+active).attr('onclick','changeShisha(this)');
+            $('#'+id).removeClass('link-item');
+            $('#'+id).addClass('link-item-active');
+            var data_ke     = id.split("-");
+            document.getElementById('slide-shisha-title').innerHTML     = document.getElementById('shisha-title-'+data_ke[1]).innerHTML;
+        }
+    </script>
+</body>
+</html>

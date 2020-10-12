@@ -92,6 +92,18 @@
 	{
 		font-size: 14px;
 	}
+	.history-title
+    {
+        font-size: 24px;
+    }
+    .history-subtitle
+    {
+        font-size: 24px;
+	}
+	.banner-title
+    {
+		text-align: center;
+    }
 }
 @media only screen and (min-width: 768px)
 {
@@ -103,6 +115,7 @@
 }
 @media only screen and (max-width: 767px) 
 {
+	
 	.navbar-dark .navbar-toggler {
 		color: #f4623a;
 		border-color: transparent;
@@ -186,5 +199,25 @@
 		width: 200px;
 		padding-right: 18px;
         font-style: italic;
+	}
+	
+	.fancy span:before,
+    .fancy span:after {
+        content: "";
+        position: absolute;
+        height:0px;
+        border-bottom: 1px solid #f4623a;
+        border-top: 1px solid  #f4623a;
+        top: 10px;
+        width: 45px;
+	}
+	.fancy-shisha span:after {
+        content: "";
+        position: absolute;
+        height:0px;
+        border-bottom: 1px solid #f4623a;
+        border-top: 1px solid  #f4623a;
+        top: 10px;
+        width: 30px;
     }
 }
