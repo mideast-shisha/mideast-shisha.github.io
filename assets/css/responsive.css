@@ -22,8 +22,7 @@
     .menu-name
     {
 		letter-spacing: 2px !important;
-		font-size: 11px !important;
-
+		font-size: 10px !important;
         margin: 10px !important;
     }
     
@@ -221,5 +220,14 @@
         border-top: 1px solid  #f4623a;
         top: 10px;
         width: 30px;
-    }
+	}
+	.slider-news-promo-name {
+		font-size: 20px;
+	}
+	.slider-news-promo-title {
+		font-size: 10px;
+	}
+	.slider-customer-review-title {
+		font-size: 35px;
+	}
 }

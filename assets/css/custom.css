@@ -450,6 +450,11 @@
         font-family : 'yeseva-one',cursive;
         font-size   : 40px;
     }
+    .img-banner-news
+    {
+        /* width: 200px; */
+        height: 100%;
+    }
     
 /* end about page style */
 /* start our menu page style */
