@@ -55,18 +55,18 @@
 		color: #212529;
 	}
 	#mainNav.navbar-scrolled .navbar-brand:hover {
-		color: #f4623a;
+		color: #ed5034;
 	}
 	#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
 		color: #212529;
 	}
 	#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-		color: #f4623a;
+		color: #ed5034;
     }
     .brand-logo-image
     {
         width: 125px;
-        height: 50px;
+        height: 80px;
     }
 
     .carousel-caption {
@@ -116,14 +116,16 @@
 }
 @media only screen and (max-width: 767px) 
 {
-	
+	.navbar {
+		height: 100%;
+	}
 	.navbar-dark .navbar-toggler {
-		color: #f4623a;
+		color: #ed5034;
 		border-color: transparent;
 	}
     .brand-logo-image
     {
-        width: 30%;
+		width: 80%;
         /* height: 100px; */
 	}
     .carousel-caption {
@@ -131,14 +133,20 @@
         top: 25px;
 	}
 	.caption-title-slider {
-		font-size: 20px !important;
+		font-size: 35px !important;
 	}
 	.caption-desctiption-slider {
 		font-size: 10px;
 	}
     .brand-logo-div
     {
-        margin: 0;
+		margin: 0;
+ 		padding: 0;
+		background-color: black;
+	}
+	.navbar-brand {
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 	.x-text
 	{
@@ -162,7 +170,7 @@
 	}
 	.menu-item-nav:active
 	{
-		color: #f4623a;
+		color: #ed5034;
 
 	}
 	.social-media-nav
@@ -207,8 +215,8 @@
         content: "";
         position: absolute;
         height:0px;
-        border-bottom: 1px solid #f4623a;
-        border-top: 1px solid  #f4623a;
+        border-bottom: 1px solid #ed5034;
+        border-top: 1px solid  #ed5034;
         top: 10px;
         width: 45px;
 	}
@@ -216,8 +224,8 @@
         content: "";
         position: absolute;
         height:0px;
-        border-bottom: 1px solid #f4623a;
-        border-top: 1px solid  #f4623a;
+        border-bottom: 1px solid #ed5034;
+        border-top: 1px solid  #ed5034;
         top: 10px;
         width: 30px;
 	}
@@ -225,9 +233,46 @@
 		font-size: 20px;
 	}
 	.slider-news-promo-title {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.slider-customer-review-title {
 		font-size: 35px;
+	}
+	.our-menu-home-title-icon {
+		font-size: 70px;
+	}
+	.our-menu-home-title-text {
+		font-size: 30px;
+	}
+	.button-see-more-menu {
+		font-size: 15px;
+	}
+	.icon-shisha {
+		width: 60px;
+		height: 60px;
+	}
+	.our-shisha-home-title-text {
+		font-size: 30px;
+	}
+	.fancy-shisha span:before, .fancy-shisha span:after {
+		width: 40px;
+	}
+
+	.nav-link {
+		font-size: 12px;
+		font-weight: 700;
+	}
+	.banner-title {
+		font-size: 35px;
+	
+	}
+	.button-reserve {
+		font-size: 20px;
+	}
+	.product-description-pop-up {
+		font-size: 10px;
+	}
+	.product-name-pop-up {
+		font-size: 14px;
 	}
 }

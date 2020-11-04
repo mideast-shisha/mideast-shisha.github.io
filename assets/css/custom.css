@@ -13,11 +13,11 @@
 }
 .bg-dasar 
 {
-    background-color: #f4623a;
+    background-color: #ed5034;
 }
 .border-umum
 {
-    border-color: #f4623a !important;
+    border-color: #ed5034 !important;
     width: 25%;
 
 }
@@ -25,7 +25,14 @@
 {
     background-color: #fef2e6 !important;
 }
-
+.overlay-image
+{
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
 .nav-fixed
 {
     position: fixed;
@@ -37,7 +44,22 @@
     right: 0;
     bottom: 0;
 }
+.btn-custom
+{
+    background-color: white !important;
+    min-width: 150px;
+    color: black;
+    border-radius: 0;
+    border-bottom: 2px solid #ed5034;
+    margin-top: -10px;
 
+}
+
+.btn-custom:hover,.btn-custom:active
+{
+    background-color: #ed5034 !important;
+    color: white;
+}
 .text-bolder
 {
     font-weight: 700;
@@ -46,7 +68,7 @@
 /* Navbar style */
     .nyala
     {
-        color: #f4623a !important;
+        color: #ed5034 !important;
     }
     .brand-logo-image
     {
@@ -56,7 +78,7 @@
     .brand-logo-div
     {
         margin: 0 30px;
-        background-color:#f4623a;
+        background-color:#ed5034;
         padding: 10px;
     }
     .menu-name
@@ -123,7 +145,7 @@
     .about-us-home-operation-icon
     {
         font-size: 35px;
-        color: #f4623a;
+        color: #ed5034;
         margin-left: 5px;
     }
     .about-us-home-operation-description
@@ -136,7 +158,7 @@
     .about-us-home-location-icon
     {
         font-size: 35px;
-        color: #f4623a;
+        color: #ed5034;
     }
     .about-us-home-location-description
     {
@@ -228,8 +250,8 @@
         content: "";
         position: absolute;
         height:0px;
-        border-bottom: 1px solid #f4623a;
-        border-top: 1px solid  #f4623a;
+        border-bottom: 1px solid #ed5034;
+        border-top: 1px solid  #ed5034;
         top: 10px;
         width: 130px;
     }
@@ -310,8 +332,8 @@
         content: "";
         position: absolute;
         height:0px;
-        border-bottom: 1px solid #f4623a;
-        border-top: 1px solid  #f4623a;
+        border-bottom: 1px solid #ed5034;
+        border-top: 1px solid  #ed5034;
         top: 10px;
         width: 130px;
     }
@@ -486,7 +508,7 @@
     }
     .button-reserve
     {
-        height: 60px;
+        /* height: 60px; */
         font-size: 30px;
         font-family: 'overpass-bold','cursive';
     }

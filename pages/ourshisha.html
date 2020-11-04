@@ -13,11 +13,8 @@
 
 </head>
 <body>
-    
-    
-   
-    <!-- Nav Menu On Small Devices -->
-    <div class="h-100 nav-fixed bg-dasar hidden" id="navbarToggleExternalContent">
+     <!-- Nav Menu On Small Devices -->
+     <div class="h-100 nav-fixed bg-dasar hidden" id="navbarToggleExternalContent">
         <div class="bg-umum p-4 h-100">
             <div class="row">
                 <div class="col-12 col-sm-12">
@@ -29,7 +26,9 @@
             <div class="row">
                 <div class="col-12 col-sm-12">
                     <div class="text-center">
-                        <img src="assets/images/remake.png" class="brand-logo-image-nav" alt="mideast logo" srcset="" >
+                        <a href="../index.html">
+                            <img src="../assets/images/logo.png" class="brand-logo-image-nav" alt="mideast logo" srcset="" >
+                        </a>
                     </div>
                 </div>
             </div>
@@ -37,19 +36,29 @@
                 <div class="col-sm-8 offset-sm-2 col-8 offset-2">
                     <div class="menu-nav text-white text-center">
                         <div class="menu-item-nav">
-                            About Us
+                            <a href="pages/about-us.html">
+                                About Us
+                            </a>
                         </div>
                         <div class="menu-item-nav">
-                            <a href="newspromo.html">News and Promo</a>
+                            <a href="pages/ourmenu.html">
+                                Our Menu
+                            </a>
                         </div>
                         <div class="menu-item-nav">
-                            <a href="ourmenu.html">Our Menu</a>
+                            <a href="pages/ourshisha.html">
+                                Our Shisha
+                            </a>
                         </div>
                         <div class="menu-item-nav">
-                            <a href="ourshisha.html">Our Shisha</a>
+                            <a href="pages/newspromo.html">
+                                News and Promo
+                            </a>
                         </div>
                         <div class="menu-item-nav">
-                            <a href="reservation.html">Reservation</a>
+                            <a href="pages/reservation.html">
+                                Reservation
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -75,22 +84,33 @@
     <!-- End Nav Menu On Small Devices -->
 
     <!-- Nav bar on SM and SMALL Devices -->
-    <div class="pos-f-t d-md-none" id="nav-bar">
-        <div class="brand-logo-div text-center">
-            <a class="navbar-brand" href="#" >
-                <img src="../assets/images/logo.png" class="brand-logo-image" alt="mideast logo" srcset="" >
-            </a>
+    <div class="pos-f-t d-md-none d-sm-block d-block" id="nav-bar">
+        <div class="row no-gutters">
+            <div class="col-sm-10 col-10">
+                <div class="brand-logo-div text-center bg-black">
+                    <a class="navbar-brand " href="#">
+                        <div class="row justify-content-end">
+                            <div class="col-sm-10 col-10">
+                                <div class="bg-dasar" style="padding-top: 10px;padding-bottom: 10px;">
+                                    <img src="../assets/images/logo.png" class="brand-logo-image bg-dasar" alt="mideast logo" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>            
+            </div>
+            <div class="col-sm-2 col-2" onclick="openNav()">
+                <nav class="navbar justify-content-center navbar-div bg-black navbar-dark" style="padding-bottom: 0; padding-top:0;">
+                    <button class="navbar-toggler text-center" type="button" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
         </div>
-        <nav class="navbar justify-content-center navbar-div bg-black navbar-dark" style="padding-bottom: 0; padding-top:0;">
-            <button class="navbar-toggler text-center" type="button" onclick="openNav()" >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
     </div>
-    <!-- End Nav bar on SM and SMALL Devices -->
-
+<!-- End Nav bar on SM and SMALL Devices -->
     <!-- Nav bar on MD LG And XL -->
-    <nav class="d-md-block navbar navbar-expand-md fixed-top navbar-dark" id="mainNav" style="padding-top: 0px;padding-bottom: 0px;">
+    <nav class="d-md-block d-none navbar navbar-expand-md fixed-top navbar-dark" id="mainNav" style="padding-top: 0px;padding-bottom: 0px;">
         <!--  Use flexbox utility classes to change how the child elements are justified  -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
             <ul class="navbar-nav">
@@ -126,10 +146,14 @@
             <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active">
-                    <img src="../assets/images/banner/4.jpg" alt="" srcset="" width="100%">
-                    <div class="carousel-caption  text-left">
-                        <h2 class="caption-title-slider">Our Shisha</h2>
-                        <p class="caption-desctiption-slider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo laboriosam deserunt alias dicta? Accusantium fuga libero deserunt aperiam totam quod quidem, animi mollitia praesentium. Earum consectetur quaerat dignissimos magnam!</p>
+                    <div>
+                        <img src="../assets/images/banner/4.jpg" alt="" srcset="" width="100%">
+                        <div class="overlay-image"></div>
+                    </div>
+                    <div class="carousel-caption  text-right ">
+                        <h2 class="caption-title-slider">Third Slide</h2>
+                        <hr class="border border-primary w-50 float-right">
+                        <p class="caption-desctiption-slider float-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facilis consequuntur minus numquam perferendis, error, aut aspernatur mollitia ab labore, quaerat dolore repellat iste velit sequi ex laborum itaque vero!.</p>
                     </div>
                 </div>
             </div>
