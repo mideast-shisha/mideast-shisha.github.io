@@ -1,695 +1,172 @@
-@import url("../fonts/fonts.css"); /* Using a fonts library url */
-.hidden
-{
-    display: none;
+body {
+    background-color: #000000;
 }
-.bg-black
-{
-    background-color: black;
+.topsection {
+    background: #000000;
 }
-.page-section {
-    padding: 4rem 0;
+.topsection-about a,
+.topsection-about,
+.header-social a div i,
+.bliccaThemes-header-search i,
+.topsection-about .fa-envelope,
+.topsection-about .fa-phone {
+    color: #ffffff;
 }
-.bg-umum
-{
-    background-color: rgba(52, 58, 64, 0.90);
+.topsection,
+.header-social,
+.bliccaThemes-header-search {
+    border-color: #cfa549;
 }
-.bg-dasar 
-{
-    background-color: #ed5034;
+.bliccaThemes-header.header-1 {
+    background: #000000;
 }
-.border-umum
+a.logo-text {
+    color: #cfa549;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+body {
+    color: #ffffff;
+}
+h1 {
+    color: #cfa549;
+}
+h2 {
+    color: #cfa549;
+}
+h3 {
+    color: #cfa549;
+}
+h4 {
+    color: #cfa549;
+}
+h5 {
+    color: #cfa549;
+}
+h6 {
+    color: #cfa549;
+}
+.header-1 .logo-text {
+    font-family: "Nova Square";
+    color: #cfa549;
+}
+footer h4 {
+    color: #cfa549;
+}
+.footer-widget p {
+    color: #cfa549;
+}
+.copyright-section {
+    color: #cfa549;
+}
+.bt-menu-classic-catname h4,
+.bt-accordion-itemTitle.closeit h3,
+.bt-accordion-itemTitle h3,
+h4.bt-accordion-subtitle {
+    font-family: "Nova Slim";
+    color: #cfa549;
+}
+.bt-menu-item-s1 .bt-menu-itemContent h4,
+.bt-menu-classic-title,
+.bt-menu-classic-price,
+.bt-menu-item-s1 p.bt-menu-itemPrice,
+.bt-menu-item-s1 p {
+    color: #f5c553;
+    
+}
+.bt-menu-itemContent>h4
 {
-    border-color: #ed5034 !important;
-    width: 25%;
+    font-weight: 700;
+}
+.bt-menu-itemDesc
+{
+    font-weight: 600;
+    line-height: 1;
+}
+.caption {
+    background: url(http://adamar-bistro.com/demo/wp-content/uploads/2015/04/paralax-2.jpg) no-repeat center;
+}
+.h-100
+{
+    height: 100%;
+}
+.min-h-100
+{
+    min-height: 100%;
+}
+.header-item
+{
+    height: 530px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
-}
-.bg-shisha
+.holder-image>img
 {
-    background-color: #fef2e6 !important;
+    height: 300px;
+    width: 200px;
 }
-.overlay-image
+
+.parallax-background
 {
-    position: absolute;
-    opacity: 0;
-    background-color: black;
-    height: 100%;
-    width: 100%;
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.nav-fixed
+.bg-white
 {
-    position: fixed;
-    z-index: 10000000000;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    background-color: #fff !important;
+}
+.location-content
+{
+    padding-top: 30px;
+}
+.location-icon
+{
+    font-size: 50px;
+}
+.location-content-detail
+{
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.location-title
+{
+    font-weight: 700;
+}
+.button-group-map
+{
+    padding-top: 30px;
+}
+
+.icon-button
+{
+    font-size: 30px;
+    color: #cfa549;
 }
 .btn-custom
 {
-    background-color: white !important;
-    min-width: 150px;
-    color: black;
-    border-radius: 0;
-    border-bottom: 2px solid #ed5034;
-    margin-top: -10px;
-
+    padding: 0px 12px;
+    height: 45px;
+    background-color: #000;
+    border: 1px solid #cfa549;
 }
 
-.btn-custom:hover,.btn-custom:active
+.logo
 {
-    background-color: #ed5034 !important;
-    color: white;
+    width: 200px;
+    height: 100px;
 }
-.text-bolder
+#menu-menu_v2
 {
-    font-weight: 700;
-    font-size: 15px;
+    float: left !important;
+    margin-left: 40px;
 }
-/* Navbar style */
-    .nyala
-    {
-        color: #ed5034 !important;
-    }
-    .brand-logo-image
-    {
-        width: 200px;
-        height: 100px;
-    }
-    .brand-logo-div
-    {
-        margin: 0 30px;
-        background-color:#ed5034;
-        padding: 10px;
-    }
-    .menu-name
-    {
-        font-size: 13px !important;
-        letter-spacing: 4px;
-    }
-
-/* End Navbar style */
-
-/* Header Slider style */
-    @-webkit-keyframes zoom 
-    {
-        from 
-        {
-            -webkit-transform: scale(1, 1);
-        }
-        to 
-        {
-            -webkit-transform: scale(1.5, 1.5);
-        }
-    }
-
-    @keyframes zoom 
-    {
-        from 
-        {
-            transform: scale(1, 1);
-        }
-        to 
-        {
-            transform: scale(1.5, 1.5);
-        }
-    }
-    
-    .carousel-caption
-    {
-        bottom: 200px !important;
-    }
-    .caption-title-slider
-    {
-        font-family : 'yeseva-one',cursive;
-        font-size   : 65px !important;
-    }
-    .caption-desctiption-slider
-    {
-        font-size: 17px;
-    }
-/* End Slider style */
-
-/* Start About Home Style */
-    .about-us-home-title
-    {
-        font-family: 'yeseva-one', cursive;
-        font-size: 48px;
-        line-height: 1;
-    }
-    .about-us-home-description
-    {
-        font-family: 'overpass-light','sans-serif';
-        font-size: 17px;
-        text-align: justify
-    }
-    .about-us-home-operation-icon
-    {
-        font-size: 35px;
-        color: #ed5034;
-        margin-left: 5px;
-    }
-    .about-us-home-operation-description
-    {
-        font-family: 'overpass-light','sans-serif';
-        font-size: 15px;
-        text-align: justify
-    }
-    
-    .about-us-home-location-icon
-    {
-        font-size: 35px;
-        color: #ed5034;
-    }
-    .about-us-home-location-description
-    {
-        font-family: 'overpass-light','sans-serif';
-        font-size: 15px;
-        text-align: justify
-    }
-    .waze-icon
-    {
-        font-size: 30px;
-    }
-
-/* End About Home Style */
-
-/* Start Our Menu Home Style */
-   /* Image for Parallax Section */ 
-    .paralsec-bg-pattern
-    {
-        background-image: url('../images/banner/bg-pattern.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 0;
-        border-radius:0;
-    }
-    .paralsec {  
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 0;
-        border-radius:0;
-        box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.6);
-    }
-
-    .paralsec-history {  
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-bottom: 0;
-        border-radius:0;
-        box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
-        
-    }
-    .overlay {
-        position: fixed;
-        display: block;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5);
-        z-index: 0;
-        cursor: pointer;
-      }
-    .content-upper-overlay
-    {
-        z-index: 10;
-    }
-    .our-menu-home-title-icon
-    {
-        font-size: 70px;
-        color: #fff;
-    }
-    .our-menu-home-title-text
-    {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        color: #fff;
-        letter-spacing: 5px;
-        font-weight: 700;
-    }
-    
-    .fancy {
-        line-height: 0.5;
-        text-align: center;
-    }
-    .fancy span {
-        display: inline-block;
-        position: relative;  
-    }
-    .fancy span:before,
-    .fancy span:after {
-        content: "";
-        position: absolute;
-        height:0px;
-        border-bottom: 1px solid #ed5034;
-        border-top: 1px solid  #ed5034;
-        top: 10px;
-        width: 130px;
-    }
-    .fancy span:before {
-        right: 100%;
-        margin-right: 15px;
-    }
-    .fancy span:after {
-        left: 100%;
-        margin-left: 15px;
-    }
-    .menu-item {
-        margin-bottom: 45px;
-    }
-
-    .menu-item h5 {
-        color: #fff;
-        font-size: 23px;
-        margin-bottom: 8px;
-    }
-    .icon-kecil
-    {
-        font-size: 13px;
-    }
-    .menu-item p {
-        font-size: 14px;
-        line-height: normal;
-        display: table-cell;
-        width: 270px;
-        padding-right: 18px;
-        font-style: italic;
-    }
-
-    .menu-item .mi-meta {
-        display: table;
-        width: 100%;
-    }
-
-    .menu-item .menu-price {
-        display: table-cell;
-        color: #fff;
-        text-align: right;
-        position: relative;
-        font-size: 17px;
-    }
-
-    .menu-item .menu-price:after {
-        position: absolute;
-        content: "";
-        width: calc(100% - 63px);
-        left: 0;
-        top: 50%;
-        margin-top: -1px;
-        border-bottom: 2px dotted rgba(255, 255, 255, 0.25);
-    }
-    .button-see-more-menu
-    {
-        font-size: 20px;
-    }
-/* End Our Menu Home Style  */
-
-/* Our Shisha Home */
-    .our-shisha-home-title-icon
-    {
-        font-size: 90px;
-        color: #000;
-    }
-    .fancy-shisha {
-        line-height: 0.5;
-        text-align: center;
-    }
-    .fancy-shisha span {
-        display: inline-block;
-        position: relative;  
-    }
-    .fancy-shisha span:before,
-    .fancy-shisha span:after {
-        content: "";
-        position: absolute;
-        height:0px;
-        border-bottom: 1px solid #ed5034;
-        border-top: 1px solid  #ed5034;
-        top: 10px;
-        width: 130px;
-    }
-    .fancy-shisha span:before {
-        right: 100%;
-        margin-right: 15px;
-    }
-    .fancy-shisha span:after {
-        left: 100%;
-        margin-left: 15px;
-    }
-    .our-shisha-home-title-text
-    {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        color: #000;
-        letter-spacing: 5px;
-        font-weight: 700;
-    }
-    .icon-shisha
-    {
-        width: 70px;
-        height: 70px;
-    }
-    .shisha-description
-    {
-        font-size: 15px;
-        color: #000;
-        font-family: overpass-bold;        
-    }
-    .shisha-price
-    {
-        font-size: 15px;
-        font-weight: 700;
-        font-family: overpass-light;
-    }
-/* End Our Shisha Home */
-
-/* Start Reservation */
-    .reservation-title
-    {
-        font-size: 30px;
-        color: #fff;
-        font-family: 'yeseva-one';
-    }
-    .label-text
-    {
-        color: #fff;
-    }
-
-/* End Reservation */
-/* Footer */
-.copyright
-{
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.icon-footer
-{
-    font-size: 23px;
-    margin-right: 20px;
-}
-
-/* end footer */
-
-
-/* start about page style */
-    .history-title
-    {
-        font-family: 'yeseva-one',cursive;
-        font-size: 42px;
-        color: #fff;
-        letter-spacing: 2px;
-    }
-    .history-subtitle
-    {
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
-    .slider-history-year
-    {
-        font-size: 30px;
-        color: #fff;
-        font-family: 'overpass-bold',cursive;
-    }
-    .slider-history-description
-    {
-        font-size: 20px;
-        font-family: 'overpass-light',cursive;
-        font-weight: 500;
-        color: darkgray;
-    }
-    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-        background: 0 0;
-        color: #fff;
-        font-size: 12px;
-        border: none;
-        padding: 0!important;
-        font: inherit;
-    }
-
-    .slider-customer-review-title
-    {
-        font-family : 'yeseva-one',cursive;
-        font-size   : 40px;
-    }
-    .slider-customer-review-name
-    {
-        font-family: 'overpass-reg';
-        font-size: 20px;
-    }
-    .slider-customer-review-description
-    {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 15px;
-    }
-
-    .slider-news-promo-title
-    {
-        font-family : 'yeseva-one',cursive;
-        font-size   : 15px;
-    }
-    .slider-news-promo-name
-    {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        font-weight: 600;
-    }
-    .slider-news-promo-description
-    {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 15px;
-    }
-
-    .gallery-title
-    {
-        font-family : 'yeseva-one',cursive;
-        font-size   : 40px;
-    }
-    .img-banner-news
-    {
-        /* width: 200px; */
-        height: 100%;
-    }
-    
-/* end about page style */
-/* start our menu page style */
-    .bg-jumbotron
-    {
-        background-image: url('../images/banner/bg-9.jpg');
-        /* background-attachment: fixed; */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .bg-jumbotron-shisha
-    {
-        background-image: url('../images/banner/bg-11.jpg');
-        /* background-attachment: fixed; */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .banner-title
-    {
-        font-family: 'yeseva-one','cursive';
-        font-size: 50px;
-        color: white;
-    }
-    .button-reserve-div
-    {
-        margin-top: 50px;
-    }
-    .button-reserve
-    {
-        /* height: 60px; */
-        font-size: 30px;
-        font-family: 'overpass-bold','cursive';
-    }
-
-
-    .menu-item-shisha {
-        margin-bottom: 45px;
-    }
-
-    .menu-item-shisha h5 {
-        font-size: 23px;
-        margin-bottom: 8px;
-    }
-    .icon-kecil
-    {
-        font-size: 13px;
-    }
-    .menu-item-shisha p {
-        font-size: 14px;
-        line-height: normal;
-        display: table-cell;
-        width: 270px;
-        padding-right: 18px;
-        font-style: italic;
-    }
-
-    .menu-item-shisha .mi-meta {
-        display: table;
-        width: 100%;
-    }
-
-    .menu-item-shisha .menu-price {
-        display: table-cell;
-        /* color: #fff; */
-        text-align: right;
-        position: relative;
-        font-size: 17px;
-    }
-
-    .menu-item-shisha .menu-price:after {
-        position: absolute;
-        content: "";
-        width: calc(100% - 63px);
-        left: 0;
-        top: 50%;
-        margin-top: -1px;
-        border-bottom: 2px dotted rgba(0, 0, 0, 0.25);
-    }
-    .link-item
-    {
-        color:black !important;
-    }
-    
-    .link-item:hover
-    {
-        color:#008000 !important;
-    }
-    .link-item-active
-    {
-        color:#008000 !important;
-    }
-    .icon-star-slider
-    {
-        font-size: 12px;
-    }
-    .slide-shisha-description
-    {
-        font-size: 14px;
-    }
-    .hovereffect {
-        width: 100%;
-        height: 100%;
-        float: left;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        cursor: default;
-      }
-      
-      .hovereffect .overlay-1 {
-        position: absolute;
-        overflow: hidden;
-        width: 80%;
-        height: 80%;
-        left: 10%;
-        top: 10%;
-        border-bottom: 1px solid #FFF;
-        border-top: 1px solid #FFF;
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: scale(0,1);
-        -ms-transform: scale(0,1);
-        transform: scale(0,1);
-      }
-      
-      .hovereffect:hover .overlay-1 {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-      }
-      
-      .hovereffect img {
-        display: block;
-        position: relative;
-        -webkit-transition: all 0.35s;
-        transition: all 0.35s;
-      }
-      
-      .hovereffect:hover img {
-        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-        filter: brightness(0.6);
-        -webkit-filter: brightness(0.6);
-      }
-      
-      .hovereffect h2 {
-        text-transform: uppercase;
-        text-align: center;
-        position: relative;
-        font-size: 17px;
-        background-color: transparent;
-        color: #FFF;
-        padding: 1em 0;
-        opacity: 0;
-        filter: alpha(opacity=0);
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: translate3d(0,-100%,0);
-        transform: translate3d(0,-100%,0);
-      }
-      
-      .hovereffect a, .hovereffect p {
-        color: #FFF;
-        padding: 0 0;
-        opacity: 0;
-        filter: alpha(opacity=0);
-        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-        transition: opacity 0.35s, transform 0.35s;
-        -webkit-transform: translate3d(0,100%,0);
-        transform: translate3d(0,100%,0);
-      }
-      
-      .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
-      }
-      .text-menu-hover
-      {
-          font-family: 'overpass-reg','cursive';
-          font-size: 20px;
-          letter-spacing: 2px;
-          font-weight: 600;
-      }
-      .product-name-pop-up
-      {
-          font-size: 20px;
-          font-family: 'overpass-reg';
-          letter-spacing: 2px;
-          color: #fff;
-          font-weight: 600;
-          margin-bottom: -10px;
-      }
-      .product-description-pop-up
-      {
-          font-size: 16px;
-          font-family: 'overpass-light',cursive;
-          color: #fff;
-      }
-      #icon-nav
-      {
-          font-size: 30px;
-          display: flex;
-          color: #fff;
-      }
-
-/* end our menu page style */
