@@ -197,7 +197,7 @@ $(document).ready(function(){
   setTimeout(function() {
     //your code to be executed after 1 second
     remove_free_tags();
-  }, 2000);
+  }, 8000);
   
 });
 
